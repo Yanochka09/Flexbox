@@ -28,6 +28,7 @@ h2, p {
     max-width: 305px;
     flex-direction: column;
     align-items: center;
+    background-color: aqua;
 }
 
 h2 {
@@ -40,26 +41,43 @@ h2 {
 
 /* main-img */
 
-.main-img img {
+/* .main-img img {
     padding: 0 8px;
+} */
+
+.left-img {
+    
 }
 
 .top-left-img {
     display: flex;
-    justify-content: space-around;
     align-items: flex-end;
+    background-color: burlywood;
 }
 
 .bottom-left-img{
     display: flex;
-    justify-content: space-around;
     align-items: flex-start;
+    background-color: chartreuse;
+}
+
+.center-img {
+    flex-basis: 22%;
+    align-self: center;
 }
 
 .center-right-img {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    background-color: chocolate;
 }
 
+.top-right-img {
+    background-color: darkblue;
+}
+
+.bottom-right-img {
+    background-color: darkgreen;
+}
 /* end main-img */
